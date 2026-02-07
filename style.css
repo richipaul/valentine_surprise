@@ -1,35 +1,65 @@
 body {
-    background-color: #ffe6eb;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffe6eb, #ffd6e0);
+    font-family: "Segoe UI", Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 30px;
 }
 
-h1 {
-    color: #ff3366;
+.welcome {
+    font-size: 44px;
+    color: #ff1f5a;
+    margin-bottom: 5px;
+}
+
+.subheading {
+    color: #ff4d6d;
+    margin: 5px 0;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    margin-bottom: 20px;
 }
 
 button {
     margin: 6px;
-    padding: 10px 15px;
+    padding: 12px 18px;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #ff5c8a;
     color: white;
     font-size: 15px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #e63e6d;
+    transform: scale(1.05);
 }
 
 #messageBox {
     margin-top: 25px;
-    padding: 15px;
+    padding: 18px;
     width: 80%;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 18px;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+.creator {
+    margin-top: 35px;
+    font-size: 14px;
+    color: #777;
+}
+
